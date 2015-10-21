@@ -6,10 +6,10 @@
 			plugins: [
 				"advlist autolink lists link charmap print preview anchor",
 				"searchreplace visualblocks code fullscreen",
-				"insertdatetime media table contextmenu bdesk_photo autoresize"
+				"insertdatetime media table contextmenu bdesk_photo autoresize textcolor hr"
 			],
 			extended_valid_elements: "form[name|id|action|method|enctype|accept-charset|onsubmit|onreset|target],input[id|name|type|value|size|maxlength|checked|accept|src|width|height|disabled|readonly|tabindex|accesskey|onfocus|onblur|onchange|onselect|onclick|onkeyup|onkeydown|required|style],textarea[id|name|rows|cols|maxlength|disabled|readonly|tabindex|accesskey|onfocus|onblur|onchange|onselect|onclick|onkeyup|onkeydown|required|style],option[name|id|value|selected|style],select[id|name|type|value|size|maxlength|checked|width|height|disabled|readonly|tabindex|accesskey|onfocus|onblur|onchange|onselect|onclick|multiple|style]",
-			toolbar: "insertfile undo redo | styleselect | bold italic strikethrough | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link bdesk_photo",
+			toolbar: "insertfile searchreplace undo redo | styleselect fontselect fontsizeselect | forecolor backcolor | bold italic underline strikethrough | removeformat | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | insertdatetime table hr link bdesk_photo | code",
 			allow_html_data_urls: true,
 			allow_script_urls: true,
 			paste_data_images: true,
